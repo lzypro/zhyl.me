@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "Civil Premium";
+    src: url(fonts/CivilPremium-Regular2.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Civil Premium";
+    src: url(fonts/CivilPremium-Bold2.woff2);
+    font-weight: bold;
+}
+
 * {
-    font-family: Inter;
+    font-family: "Civil Premium";
 }
 
 body {
@@ -12,16 +24,17 @@ body {
 
 h1 {
     font-size: 3vw;
-    width: 50vw;
-    letter-spacing: -0.03em;
+    width: 53vw;
+    letter-spacing: -0.02em;
     line-height: 1.4;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 8vw;
         width: 80vw;
-        letter-spacing: -0.05em;
+        letter-spacing: -0.02em;
         line-height: 1.4;
     }
   }
