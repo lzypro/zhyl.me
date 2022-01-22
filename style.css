@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Civil Premium";
-    src: url(fonts/CivilPremium-Regular2.woff2);
+    src: url(font/CivilPremium-Regular2.woff2);
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Civil Premium";
-    src: url(fonts/CivilPremium-Bold2.woff2);
+    src: url(font/CivilPremium-Bold2.woff2);
     font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ h1 {
     h1 {
         font-size: 8vw;
         width: 80vw;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.025em;
         line-height: 1.4;
     }
   }
