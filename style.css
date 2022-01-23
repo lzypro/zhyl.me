@@ -184,7 +184,12 @@ h1 {
 }
 
 .link-profile::after {
-    content: url("/image/icon/chevron_right.svg");
+    content: "";
+    display: inline-block;
+    height: 26px;
+    width: 16px;
+    background-size: 16px 26px;
+    background-image: url("/image/icon/chevron_right.svg");
     position: relative;
     top: 4px;
     left: 2px;
@@ -225,10 +230,15 @@ h1 {
     }
     
     .link-profile::after {
-        content: url("/image/icon/chevron_right.svg");
+        content: "";
+        display: inline-block;
+        height: 16px;
+        width: 10px;
+        background-size: 10px 16px;
+        background-image: url("/image/icon/chevron_right.svg");
         position: relative;
-        top: 4px;
-        left: 2px;
+        top: 2.5px;
+        left: 1px;
     }
 
     .self-introduction {
@@ -367,10 +377,15 @@ h1 {
     }
     
     .link-profile::after {
-        content: url("/image/icon/chevron_right.svg");
+        content: "";
+        display: inline-block;
+        height: 15px;
+        width: 9px;
+        background-size: 9px 15px;
+        background-image: url("/image/icon/chevron_right.svg");
         position: relative;
-        top: 4px;
-        left: 2px;
+        top: 2.2px;
+        left: 0.7px;
     }
 
     .self-introduction {
