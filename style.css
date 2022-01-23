@@ -72,7 +72,7 @@ header {
 .link-product-tour {
     grid-column: 1 / 9;
     grid-row: 5 / 8;
-    background-image: url("/image/cover_small/product-tour.png");
+    background-image: url("/image/cover_small/product-tour.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -278,10 +278,6 @@ h1 {
     .link-diagram-library {
         grid-column: 1 / 4;
         grid-row: 8 / 10;
-        background-image: url("/image/cover_small/diagram_library.png");
-        background-size: cover;
-        background-position: center;
-        border: 1px solid #ffffff;
     }
     
     .title-diagram-library {
@@ -292,9 +288,6 @@ h1 {
     .link-yunify-glyph {
         grid-column: 1 / 4;
         grid-row: 11 / 13;
-        background-image: url("/image/cover_small/yunify-glyph.png");
-        background-size: cover;
-        background-position: center;
     }
     
     .title-yunify-glyph {
@@ -305,9 +298,6 @@ h1 {
     .link-xxpie {
         grid-column: 4 / 7;
         grid-row: 8 / 13;
-        background-image: url("/image/cover_small/xxpie.png");
-        background-size: cover;
-        background-position: center;
     }
     
     .title-xxpie {
@@ -430,10 +420,6 @@ h1 {
     .link-diagram-library {
         grid-column: 1 / 2;
         grid-row: 8 / 9;
-        background-image: url("/image/cover_small/diagram_library.png");
-        background-size: cover;
-        background-position: center;
-        border: 1px solid #ffffff;
     }
     
     .title-diagram-library {
@@ -444,9 +430,6 @@ h1 {
     .link-yunify-glyph {
         grid-column: 1 / 2;
         grid-row: 10 / 11;
-        background-image: url("/image/cover_small/yunify-glyph.png");
-        background-size: cover;
-        background-position: center;
     }
     
     .title-yunify-glyph {
@@ -457,9 +440,6 @@ h1 {
     .link-xxpie {
         grid-column: 2 / 3;
         grid-row: 8 / 11;
-        background-image: url("/image/cover_small/xxpie.png");
-        background-size: cover;
-        background-position: center;
     }
     
     .title-xxpie {
