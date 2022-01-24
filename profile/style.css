@@ -625,8 +625,9 @@ li:not(:last-child) {
     }
 
     ul {
-        right: 24px;
+        right: 23x;
         margin-top: 11px;
+        width: 95%;
     }
     
     li:not(:last-child) {
