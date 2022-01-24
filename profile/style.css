@@ -524,8 +524,8 @@ li:not(:last-child) {
     aside {
         grid-column: 1 / 3;
         border-bottom: 1px solid #c6c6c6;
-        padding-bottom: 30px;
-        margin-bottom: 20px;
+        padding-bottom: 38px;
+        margin-bottom: 32px;
     }
     
     article {
@@ -533,30 +533,25 @@ li:not(:last-child) {
     }
 
     .portrait {
-        width: 67px;
+        width: 89px;
         float: right;
     }
 
     h1 {
-        font-size: 22px;
-        line-height: 22px;
-        letter-spacing: -0.4px;
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
         margin-top: 0px;
     }
 
     .body-text {
-        font-size: 13px;
-        line-height: 20px;
-        letter-spacing: 0.05px;
-    }
-
-    .language-text {
-        margin-top: 9px;
-        margin-bottom: 0px;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
     }
 
     .contact {
-        margin-top: 16px;
+        margin-top: 28px;
         pointer-events: none;
     }
 
@@ -566,16 +561,16 @@ li:not(:last-child) {
     }
 
     h2 {
-        font-size: 14px;
-        line-height: 14px;
-        letter-spacing: 0px;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
     }
 
     button {
         border-radius: 3px;
         padding: 7px 9px 7px 7px;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08);
-        margin-top: 48px;
+        margin-top: 36px;
     }
     
     button:active {
@@ -604,44 +599,44 @@ li:not(:last-child) {
     }
 
     h3 {
-        font-size: 13px;
-        line-height: 13px;
-        letter-spacing: 0.05px;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
     }
 
     .experience-title {
-        margin-top: 19px;
+        margin-top: 16px;
     }
 
     .time {
-        font-size: 13px;
-        line-height: 13px;
-        letter-spacing: 0.05px;
-        margin-top: 9px;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
+        margin-top: 10px;
     }
 
     ul {
-        right: 23x;
-        margin-top: 11px;
+        right: 21x;
+        margin-top: 16px;
         width: 95%;
     }
     
     li:not(:last-child) {
-        margin-bottom: 3px;
+        margin-bottom: 7px;
     }
     
     #education {
-        margin-top: 26px;
+        margin-top: 36px;
     }
     
     .education-title {
-        margin-top: 19px;
+        margin-top: 24px;
     }
     
     .program-name {
-        font-size: 13px;
-        line-height: 13px;
-        margin-top: 9px;
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 7px;
     }
 }
 
