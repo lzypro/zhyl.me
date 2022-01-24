@@ -56,8 +56,8 @@ header {
 }
 
 .selected-works {
-    grid-column: span 12;
-    grid-row: span 1;
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
     font-size: 20px;
     line-height: 20px;
     font-weight: normal;
@@ -261,7 +261,7 @@ h1 {
     }
 
     .selected-works {
-        grid-column: 1 / 7;
+        grid-column: 1 / 3;
         grid-row: 3 / 4;
         font-size: 18px;
         line-height: 18px;
@@ -404,7 +404,7 @@ h1 {
     }
 
     .selected-works {
-        grid-column: 1 / 7;
+        grid-column: 1 / 3;
         grid-row: 3 / 4;
         font-size: 16px;
         line-height: 16px;
@@ -552,7 +552,7 @@ h1 {
     }
 
     .selected-works {
-        grid-column: 1 / 3;
+        grid-column: 1 / 2;
         grid-row: 4 / 5;
         font-size: 14px;
         line-height: 14px;
@@ -704,7 +704,7 @@ h1 {
     }
 
     .selected-works {
-        grid-column: 1 / 3;
+        grid-column: 1 / 2;
         grid-row: 4 / 5;
         font-size: 13px;
         line-height: 13px;
@@ -797,4 +797,94 @@ h1 {
     .link-profile:hover {
         text-decoration: none;
     }
+}
+
+.title-fly-in {
+    animation-duration: 0.5s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+@keyframes fly-in {
+    from {
+        opacity: 0%;
+        transform: scale(1.05);
+    }
+
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+.link-profile-fly-in {
+    animation-duration: 0.6s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.self-introduction-fly-in {
+    animation-duration: 0.7s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.current-state-fly-in {
+    animation-duration: 0.8s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.selected-works-fly-in {
+    animation-duration: 0.6s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.link-product-tour-fly-in {
+    animation-duration: 0.7s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.title-product-tour-fly-in {
+    animation-duration: 0.8s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.link-diagram-library-fly-in {
+    animation-duration: 0.6s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.title-diagram-library-fly-in {
+    animation-duration: 0.7s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.link-yunify-glyph-fly-in {
+    animation-duration: 0.8s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.title-yunify-glyph-fly-in {
+    animation-duration: 0.6s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.link-xxpie-fly-in {
+    animation-duration: 0.7s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
+}
+
+.title-xxpie-fly-in {
+    animation-duration: 0.8s;
+    animation-name: fly-in;
+    animation-timing-function: cubic-bezier(0, 0.4, 0.11, 0.99);
 }
