@@ -699,7 +699,7 @@ h1 {
         letter-spacing: -0.1px;
         margin: 0px;
         position: relative;
-        top: 38px;
+        top: 37px;
     }
 
     .selected-works {
@@ -713,7 +713,7 @@ h1 {
         margin: 0px;
         align-self: end;
         position: relative;
-        bottom: 0px;
+        bottom: 8px;
     }
 
     .link-product-tour {
