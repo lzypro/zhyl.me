@@ -1,0 +1,649 @@
+@font-face {
+    font-family: "Civil Premium";
+    src: url(/font/CivilPremium-Regular2.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Civil Premium";
+    src: url(/font/CivilPremium-Bold2.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/font/Inter-SemiBold.woff2);
+    font-weight: 600;
+}
+
+* {
+    font-family: "Civil Premium";
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #898989;
+    margin: 0px;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1120px;
+    padding: 80px;
+    background-color: #f5f5f5;
+}
+
+aside {
+    grid-column: 1 / 4;
+}
+
+article {
+    grid-column: 5 / 12;
+}
+
+.portrait {
+    width: 134px;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 37px;
+    letter-spacing: -1px;
+    margin-top: 77px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+.body-text {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+
+.contact {
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #acacac;
+    margin: 0px;
+}
+
+.side-title {
+    margin-top: 36px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background-image: url(/profile/image/noise.png), linear-gradient(#1d71f0, #1568e5);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    margin: 0px;
+    padding: 10px 12px 10px 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15), 0px 3px 5px rgba(0, 0, 0, 0.08);
+    margin-top: 100px;
+    transition: transform 0.2s cubic-bezier(0.16, 0.49, 0.68, 0.99);
+}
+
+button:active {
+    background-image: url(/profile/image/noise.png), linear-gradient(#1368e7, #0c5cd4);
+    transform: scale(0.99);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button-text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 14px;
+}
+
+.button-icon {
+    margin-right: 7.24px;
+}
+
+footer {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #8d8d8d;
+    border-top: 1px solid #c6c6c6;
+    padding-top: 34px;
+    margin-top: 42px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #000000;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.experience-title {
+    margin-top: 34px;
+}
+
+.time {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+ul {
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+#education {
+    margin-top: 53px;
+}
+
+.education-title {
+    margin-top: 34px;
+}
+
+.program-name {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1112px) {
+    main {
+        display: grid;
+        gap: 17px;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 70px;
+        background-color: #f5f5f5;
+    }
+    
+    aside {
+        grid-column: 1 / 3;
+    }
+    
+    article {
+        grid-column: 3 / 7;
+    }
+
+    .portrait {
+        width: 116px;
+        border-radius: 3px;
+    }
+
+    h1 {
+        font-size: 34px;
+        line-height: 34px;
+        letter-spacing: -0.8px;
+        margin-top: 64px;
+    }
+
+    .body-text {
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+    }
+
+    .contact {
+        margin-top: 32px;
+    }
+
+    h2 {
+        font-size: 17px;
+        line-height: 17px;
+        letter-spacing: -0.1px;
+    }
+
+    .side-title {
+        margin-top: 32px;
+    }
+
+    button {
+        margin-top: 90px;
+    }
+
+    footer {
+        padding-top: 30px;
+        margin-top: 38px;
+        max-width: 214px;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 17px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+    }
+
+    .experience-title {
+        margin-top: 28px;
+    }
+
+    .time {
+        font-size: 17px;
+        line-height: 17px;
+        letter-spacing: -0.1px;
+        margin-top: 14px;
+    }
+
+    ul {
+        position: relative;
+        right: 22px;
+        margin-top: 17px;
+    }
+    
+    li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    
+    #education {
+        margin-top: 42px;
+    }
+    
+    .education-title {
+        margin-top: 28px;
+    }
+    
+    .program-name {
+        font-size: 17px;
+        line-height: 17px;
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 890px) {
+    main {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 60px;
+    }
+    
+    aside {
+        grid-column: 1 / 3;
+    }
+    
+    article {
+        grid-column: 3 / 7;
+    }
+
+    .portrait {
+        width: 96px;
+    }
+
+    h1 {
+        font-size: 31px;
+        line-height: 31px;
+        letter-spacing: -0.7px;
+        margin-top: 58px;
+    }
+
+    .body-text {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+    }
+
+    .contact {
+        margin-top: 28px;
+    }
+
+    h2 {
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
+    }
+
+    .side-title {
+        margin-top: 29px;
+    }
+
+    button {
+        border-radius: 3px;
+        padding: 7px 9px 7px 7px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08);
+        margin-top: 78px;
+    }
+    
+    button:active {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    }
+    
+    .button-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .button-icon {
+        margin-right: 5px;
+    }
+
+    footer {
+        padding-top: 28px;
+        margin-top: 34px;
+        max-width: 174px;
+    }
+
+    h3 {
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.08px;
+    }
+
+    .experience-title {
+        margin-top: 24px;
+    }
+
+    .time {
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
+        margin-top: 12px;
+    }
+
+    ul {
+        right: 23px;
+        margin-top: 14px;
+    }
+    
+    li:not(:last-child) {
+        margin-bottom: 4px;
+    }
+    
+    #education {
+        margin-top: 38px;
+    }
+    
+    .education-title {
+        margin-top: 24px;
+    }
+    
+    .program-name {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 760px) {
+    main {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 45px;
+    }
+    
+    aside {
+        grid-column: 1 / 3;
+        border-bottom: 1px solid #c6c6c6;
+        padding-bottom: 32px;
+        margin-bottom: 18px;
+    }
+    
+    article {
+        grid-column: 1 / 3;
+    }
+
+    .portrait {
+        width: 78px;
+        float: right;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        margin-top: 0px;
+    }
+
+    .body-text {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0px;
+    }
+
+    .language-text {
+        margin-top: 9px;
+        margin-bottom: 0px;
+    }
+
+    .contact {
+        margin-top: 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0px;
+    }
+
+    button {
+        border-radius: 3px;
+        padding: 7px 9px 7px 7px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08);
+        margin-top: 59px;
+    }
+    
+    button:active {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    }
+    
+    .button-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .button-icon {
+        margin-right: 5px;
+    }
+
+    .language-section {
+        display: none;
+    }
+
+    .tool-section {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0px;
+    }
+
+    .experience-title {
+        margin-top: 22px;
+    }
+
+    .time {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0px;
+        margin-top: 10px;
+    }
+
+    ul {
+        right: 23px;
+        margin-top: 13px;
+    }
+    
+    li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+    
+    #education {
+        margin-top: 32px;
+    }
+    
+    .education-title {
+        margin-top: 22px;
+    }
+    
+    .program-name {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    main {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+    }
+    
+    aside {
+        grid-column: 1 / 3;
+        border-bottom: 1px solid #c6c6c6;
+        padding-bottom: 24px;
+        margin-bottom: 20px;
+    }
+    
+    article {
+        grid-column: 1 / 3;
+    }
+
+    .portrait {
+        width: 67px;
+        float: right;
+    }
+
+    h1 {
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: -0.4px;
+        margin-top: 0px;
+    }
+
+    .body-text {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.05px;
+    }
+
+    .language-text {
+        margin-top: 9px;
+        margin-bottom: 0px;
+    }
+
+    .contact {
+        margin-top: 16px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0px;
+    }
+
+    button {
+        border-radius: 3px;
+        padding: 7px 9px 7px 7px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08);
+        margin-top: 48px;
+    }
+    
+    button:active {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    }
+    
+    .button-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .button-icon {
+        margin-right: 5px;
+    }
+
+    .language-section {
+        display: none;
+    }
+
+    .tool-section {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    h3 {
+        font-size: 13px;
+        line-height: 13px;
+        letter-spacing: 0.05px;
+    }
+
+    .experience-title {
+        margin-top: 19px;
+    }
+
+    .time {
+        font-size: 13px;
+        line-height: 13px;
+        letter-spacing: 0.05px;
+        margin-top: 9px;
+    }
+
+    ul {
+        right: 24px;
+        margin-top: 11px;
+    }
+    
+    li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+    
+    #education {
+        margin-top: 26px;
+    }
+    
+    .education-title {
+        margin-top: 19px;
+    }
+    
+    .program-name {
+        font-size: 13px;
+        line-height: 13px;
+        margin-top: 9px;
+    }
+}
+
+@media (hover: none) {
+    .button:active {
+        transform: none;
+    }
+}
