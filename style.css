@@ -783,3 +783,13 @@ h1 {
         letter-spacing: -0.1px;
     }
 }
+
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+    }
+
+    .card:active {
+        transform: none;
+    }
+}
