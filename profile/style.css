@@ -71,6 +71,12 @@ h1 {
 .contact {
     margin-top: 36px;
     margin-bottom: 0px;
+    pointer-events: none;
+}
+
+.contact > a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h2 {
@@ -213,6 +219,12 @@ li:not(:last-child) {
 
     .contact {
         margin-top: 32px;
+        pointer-events: none;
+    }
+
+    .contact > a {
+        text-decoration: none;
+        color: inherit;
     }
 
     h2 {
@@ -313,6 +325,12 @@ li:not(:last-child) {
 
     .contact {
         margin-top: 28px;
+        pointer-events: none;
+    }
+
+    .contact > a {
+        text-decoration: none;
+        color: inherit;
     }
 
     h2 {
