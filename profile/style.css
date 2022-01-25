@@ -431,6 +431,12 @@ li:not(:last-child) {
 
     .contact {
         margin-top: 28px;
+        pointer-events: none;
+    }
+
+    .contact > a {
+        text-decoration: none;
+        color: inherit;
     }
 
     h2 {

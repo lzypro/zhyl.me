@@ -686,8 +686,8 @@ h1 {
     .selected-works {
         grid-column: 1 / 2;
         grid-row: 4 / 5;
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 12px;
         font-weight: normal;
         color: #545454;
         letter-spacing: -0.1px;
@@ -754,9 +754,9 @@ h1 {
     }
 
     .card-title {
-        font-size: 13px;
-        line-height: 16px;
-        letter-spacing: -0.1px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
     }
 }
 
