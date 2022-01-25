@@ -652,13 +652,8 @@ h1 {
     .link-profile::after {
         content: "";
         display: inline-block;
-        height: 18px;
-        width: 11px;
-        background-size: 11px 18px;
+        background-size: 11px 19px;
         background-image: url("/image/icon/chevron_right.svg");
-        position: relative;
-        top: 3x;
-        left: 0.7px;
     }
 
     .self-introduction {
