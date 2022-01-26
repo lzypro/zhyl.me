@@ -664,7 +664,7 @@ h1 {
         letter-spacing: -0.1px;
         margin: 0px;
         position: relative;
-        top: -20px;
+        top: -19px;
     }
     
     .current-state {
@@ -675,7 +675,7 @@ h1 {
         letter-spacing: -0.1px;
         margin: 0px;
         position: relative;
-        top: 26px;
+        top: 35px;
     }
 
     .selected-works {
@@ -766,6 +766,18 @@ h1 {
 
     .link-profile:hover {
         text-decoration: none;
+    }
+}
+
+@media (max-width: 385px) {
+    .self-introduction {
+        position: relative;
+        top: -36px;
+    }
+    
+    .current-state {
+        position: relative;
+        top: 26px;
     }
 }
 
