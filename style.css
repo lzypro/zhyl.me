@@ -617,7 +617,7 @@ h1 {
     main {
         gap: 10px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(12, 80px);
+        grid-template-rows: repeat(12, 68px);
         max-width: 708px;
         padding: 30px;
     }
@@ -766,5 +766,17 @@ h1 {
 
     .link-profile:hover {
         text-decoration: none;
+    }
+}
+
+@media (max-width: 330px) {
+    .self-introduction {
+        position: relative;
+        top: -42px;
+    }
+    
+    .current-state {
+        position: relative;
+        top: 34px;
     }
 }
