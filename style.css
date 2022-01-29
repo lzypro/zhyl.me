@@ -475,7 +475,7 @@ h1 {
     main {
         gap: 12px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(14, 80px);
+        grid-template-rows: repeat(14, 80px); 
         padding: 45px;
     }
 
