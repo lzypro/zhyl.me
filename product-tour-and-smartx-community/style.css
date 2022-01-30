@@ -2727,7 +2727,7 @@ footer {
     main {
         gap: 10px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(124, 68px);
+        grid-template-rows: repeat(119, 68px);
         padding: 30px;
     }
     
@@ -2800,7 +2800,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 8 / 14;
         position: relative;
-        top: 50px;
+        top: 40px;
     }
     
     .work-description-paragraph:not(:last-child) {
@@ -2825,7 +2825,7 @@ footer {
         padding: 0px;
         align-self: center;
         position: relative;
-        top: -30px;
+        top: 0px;
     }
     
     .link {
@@ -2847,7 +2847,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 16 / 17;
         position: relative;
-        top: 7px;
+        top: 20px;
     }
     
     .section-title {
@@ -2863,7 +2863,7 @@ footer {
         grid-column: 1 / 2;
         grid-row: 17 / 18;
         position: relative;
-        top: 7px;
+        top: 20px;
     }
     
     .product-tour-prototype {
@@ -2885,7 +2885,7 @@ footer {
         grid-column: 1 / 2;
         grid-row: 22 / 23;
         position: relative;
-        top: 15px;
+        top: 13px;
     }
     
     .fp-1 {
@@ -2926,11 +2926,11 @@ footer {
     
     .feature-2 {
         grid-column: 1 / 3;
-        grid-row: 30 / 31;
+        grid-row: 29 / 30;
         justify-self: left;
         width: 100%;
         position: relative;
-        top: -34px;
+        top: -17px;
     }
     
     .fp-2 {
@@ -2941,7 +2941,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 36 / 37;
         position: relative;
-        top: 55px;
+        top: -45px;
     }
     
     .fp-3 {
@@ -2952,7 +2952,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 31 / 35;
         position: relative;
-        top: 20px;
+        top: -20px;
     }
     
     .position-box-2 {
@@ -2979,24 +2979,24 @@ footer {
     
     .s-3 {
         grid-column: 1 / 3;
-        grid-row: 38 / 39;
+        grid-row: 37 / 38;
         position: relative;
         top: -10px;
     }
     
     .st-2 {
         grid-column: 1 / 2;
-        grid-row: 39 / 40;
+        grid-row: 38 / 39;
         position: relative;
         top: -10px;
     }
     
     .process-title-1 {
         grid-column: 1 / 3;
-        grid-row: 40 / 41;
+        grid-row: 39 / 40;
         align-self: start;
         position: relative;
-        top: -10px;
+        top: -15px;
     }
     
     .subtitle {
@@ -3018,26 +3018,26 @@ footer {
     
     .fp-4 {
         grid-column: 1 / 3;
-        grid-row: 40 / 43;
+        grid-row: 39 / 42;
         margin-top: 9px;
         position: relative;
-        top: 40px;
+        top: 30px;
     }
     
     .visualize-goal {
         grid-column: 1 / 3;
-        grid-row: 43 / 44;
+        grid-row: 42 / 43;
         width: 100%;
         align-self: start;
         position: relative;
         margin-top: 0px;
-        top: -37px;
+        top: 0px;
         bottom: 0px;
     }
     
     .initial-goals {
         grid-column: 1 / 3;
-        grid-row: 45 / 46;
+        grid-row: 44 / 45;
         width: 100%;
         position: relative;
         top: 20px;
@@ -3053,9 +3053,9 @@ footer {
         margin-top: 0px;
         padding: 0px;
         position: relative;
-        left: 15px;
-        width: 98%;
-        top: 32px;
+        left: 0px;
+        width: 94%;
+        top: -20px;
     }
 
     
@@ -3075,7 +3075,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 51 / 53;
         position: relative;
-        top: 34px;
+        top: 35px;
     }
     
     .video-container-3 {
@@ -3083,7 +3083,7 @@ footer {
         grid-row: 54 / 57 ;
         align-self: center;
         position: relative;
-        top: -28px;
+        top: -20px;
     }
     
     .position-box-3 {
@@ -3112,7 +3112,7 @@ footer {
         grid-row: 54 / 57;
         align-self: center;
         position: relative;
-        top: -28px;
+        top: -20px;
     }
     
     .position-box-4 {
@@ -3139,14 +3139,14 @@ footer {
         grid-column: 1 / 3;
         grid-row: 56 / 57;
         position: relative;
-        top: 12px;
+        top: 11px;
     }
     
     .video-container-4 {
         grid-column: 1 / 3;
         grid-row: 58 / 61;
         position: relative;
-        top: -30px;
+        top: -35px;
     }
     
     .position-box-5 {
@@ -3172,57 +3172,57 @@ footer {
     
     .process-title-3 {
         grid-column: 1 / 3;
-        grid-row: 62 / 63;
+        grid-row: 61 / 62;
         align-self: end; 
         position: relative;
-        top: 20px;
+        top: 45px;
     }
     
     .fp-7 {
         grid-column: 1 / 3;
-        grid-row: 63 / 64;
+        grid-row: 62 / 63;
         position: relative;
-        top: 20px;
+        top: 45px;
     }
     
     .varients-of-landing-page {
         grid-column: 1 / 3;
-        grid-row: 65 / 66;
+        grid-row: 64 / 65;
         align-self: start;
         width: 100%;
         position: relative;
-        top: -15px;
+        top: 30px;
     }
     
     .process-title-4 {
         grid-column: 1 / 3;
-        grid-row: 68 / 69;
+        grid-row: 67 / 68;
         align-self: start;
-        position: relative;
-        top: -10px;
-    }
-    
-    .fp-8 {
-        grid-column: 1 / 3;
-        grid-row: 69 / 70;
-        position: relative;
-        top: -35px;
-    }
-    
-    .detailed-work {
-        grid-column: 1 / 3;
-        grid-row: 71 / 72;
-        align-self: center;
-        width: 100%;
         position: relative;
         top: 10px;
     }
     
+    .fp-8 {
+        grid-column: 1 / 3;
+        grid-row: 68 / 69;
+        position: relative;
+        top: -15px;
+    }
+    
+    .detailed-work {
+        grid-column: 1 / 3;
+        grid-row: 70 / 71;
+        align-self: center;
+        width: 100%;
+        position: relative;
+        top: 35px;
+    }
+    
     .little-detail-1 {
         grid-column: 1 / 3;
-        grid-row: 74 / 79;
+        grid-row: 73 / 78;
         position: relative;
-        top: 0px;
+        top: -10px;
         background-image: url(/product-tour-and-smartx-community/image/little-detail-1.png);
         background-size: cover;
         background-position: center top;
@@ -3243,7 +3243,7 @@ footer {
     
     .detail-description-1 {
         grid-column: 1 / 3;
-        grid-row: 79 / 80;
+        grid-row: 78 / 79;
         justify-self: right;
         align-self: center;
         width: 100%;
@@ -3261,52 +3261,52 @@ footer {
     
     .process-title-5 {
         grid-column: 1 / 3;
-        grid-row: 81 / 82;
+        grid-row: 80 / 81;
         position: relative;
-        top: 23px;
+        top: 30px;
     }
     
     .fp-10 {
         grid-column: 1 / 3;
-        grid-row: 82 / 84;
-        position: relative;
-        top: 0px;
-    }
-    
-    .covers-video {
-        grid-column: 1 / 3;
-        grid-row: 84 / 85;
-        width: 100%;
+        grid-row: 81 / 83;
         position: relative;
         top: 10px;
     }
     
+    .covers-video {
+        grid-column: 1 / 3;
+        grid-row: 83 / 84;
+        width: 100%;
+        position: relative;
+        top: 45px;
+    }
+    
     .s-4 {
         grid-column: 1 / 3;
-        grid-row: 87 / 88;
+        grid-row: 86 / 87;
         position: relative;
-        top: -30px;
+        top: -25px;
     }
     
     .st-3 {
         grid-column: 1 / 2;
-        grid-row: 88 / 89;
+        grid-row: 87 / 88;
         position: relative;
-        top: -30px;
+        top: -25px;
     }
     
     .process-title-6 {
         grid-column: 1 / 3;
-        grid-row: 89 / 90;
+        grid-row: 87 / 88;
         position: relative;
-        top: -30px;
+        top: 45px;
     }
     
     .fp-11 {
         grid-column: 1 / 3;
         grid-row: 89 / 90;
         position: relative;
-        top: 25px;
+        top: -30px;
     }
     
     .flow-container {
@@ -3317,7 +3317,7 @@ footer {
         overflow-y: hidden;
         background-color: #e5e5e5;
         position: relative;
-        top: -15px;
+        top: -25px;
     }
     
     .flow-container::-webkit-scrollbar {
@@ -3340,9 +3340,9 @@ footer {
     
     .detail-description-2 {
         grid-column: 1 / 3;
-        grid-row: 105 / 106;
+        grid-row: 104 / 105;
         position: relative;
-        top: 45px;
+        top: 25px;
     }
     
     .fp-12 {
@@ -3362,77 +3362,77 @@ footer {
         border-radius: 6.83px;
         z-index: 1;
         position: relative;
-        top: 0px;
+        top: -20px;
     }
     
     .all-community-works {
         grid-column: 1 / 3;
-        grid-row: 109 / 110;
+        grid-row: 108 / 109;
         align-self: end;
         width: 100%;
         position: relative;
-        top: 10px;
+        top: -20px;
     }
     
     .s-5 {
         grid-column: 1 / 3;
-        grid-row: 110 / 111;
+        grid-row: 109 / 110;
         position: relative;
-        top: 40px;
+        top: -20px;
     }
     
     .st-4 {
         grid-column: 1 / 2;
-        grid-row: 111 / 112;
+        grid-row: 110 / 111;
         position: relative;
-        top: 40px;
+        top: -20px;
     }
     
     .fp-13 {
         grid-column: 1 / 3;
-        grid-row: 112 / 113;
+        grid-row: 111 / 112;
         position: relative;
-        top: 50px;
+        top: -20px;
     }
     
     .owc-1 {
         grid-column: 1 / 2;
-        grid-row: 115 / 118;
+        grid-row: 113 / 115;
         background-image: url(/product-tour-and-smartx-community/image/other-works-1.png);
     }
     
     .owc-2 {
         grid-column: 2 / 3;
-        grid-row: 115 / 118;
+        grid-row: 113 / 115;
         background-image: url(/product-tour-and-smartx-community/image/other-works-2.png);
     }
     
     .owc-3 {
         grid-column: 1 / 2;
-        grid-row: 118 / 121;
+        grid-row: 115 / 117;
         background-image: url(/product-tour-and-smartx-community/image/other-works-3.png);
     }
     
     .owc-4 {
         grid-column: 2 / 3;
-        grid-row: 118 / 121;
+        grid-row: 115 / 117;
         background-image: url(/product-tour-and-smartx-community/image/other-works-4.png);
     }
     
     .owc-5 {
         grid-column: 1 / 2;
-        grid-row: 121 / 124;
+        grid-row: 117 / 119;
         background-image: url(/product-tour-and-smartx-community/image/other-works-5.png);
     }
     
     .owc-6 {
         grid-column: 2 / 3;
-        grid-row: 121 / 124;
+        grid-row: 117 / 119;
         background-image: url(/product-tour-and-smartx-community/image/other-works-6.png);
     }
     
     .other-works-container {
-        background-size: 90%;
+        background-size: 80%;
         background-repeat: no-repeat;
         background-color: #000000;
         background-position: center;
@@ -3440,7 +3440,7 @@ footer {
     
     footer {
         grid-column: 1 / 3;
-        grid-row: 124 / 125;
+        grid-row: 119 / 120;
         font-size: 11px;
         line-height: 15px;
         letter-spacing: 0.1px;
