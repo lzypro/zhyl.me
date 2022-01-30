@@ -158,7 +158,8 @@ p {
     grid-row: 17 / 26;
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: 100%
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .paragraph-title {
