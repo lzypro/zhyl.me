@@ -6383,3 +6383,9 @@ footer {
         align-self: end;
     }
 }
+
+@media (hover: none) {
+    .link:hover {
+        text-decoration: none;
+    }
+}
