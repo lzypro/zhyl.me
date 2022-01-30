@@ -2913,10 +2913,10 @@ footer {
         width: 100%;
         height: 92%;
         border: 1px solid #ffffff;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 2px 7px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px 5px rgba(0, 0, 0, 0.11);
         z-index: 1;
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: 4px;
         -webkit-transform: translateZ(0);
     }
     
@@ -2966,7 +2966,7 @@ footer {
         width: 100%;
         height: 92%;
         border: 1px solid #ffffff;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 4px 11px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px 5px rgba(0, 0, 0, 0.11);
         z-index: 2;
         overflow: hidden;
         border-radius: 4px;
@@ -2981,14 +2981,14 @@ footer {
         grid-column: 1 / 3;
         grid-row: 37 / 38;
         position: relative;
-        top: 10px;
+        top: -10px;
     }
     
     .st-2 {
         grid-column: 1 / 2;
         grid-row: 38 / 39;
         position: relative;
-        top: 10px;
+        top: -10px;
     }
     
     .process-title-1 {
@@ -3031,7 +3031,7 @@ footer {
         align-self: start;
         position: relative;
         margin-top: 0px;
-        top: -40px;
+        top: -37px;
         bottom: 0px;
     }
     
@@ -3040,11 +3040,11 @@ footer {
         grid-row: 45 / 46;
         width: 100%;
         position: relative;
-        top: -30px;
+        top: -34px;
     }
 
     .fp-ig {
-        margin-top: 7px;
+        margin-top: 6px;
     }
     
     .goal-list {
@@ -3060,7 +3060,7 @@ footer {
 
     
     .goal-list-item:not(:last-child) {
-        margin-bottom: 5px;
+        margin-bottom: 3px;
     }
     
     .process-title-2 {
@@ -3075,7 +3075,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 52 / 54;
         position: relative;
-        top: 40px;
+        top: 35px;
     }
     
     .video-container-3 {
@@ -3083,7 +3083,7 @@ footer {
         grid-row: 55 / 58;
         align-self: center;
         position: relative;
-        top: 0px;
+        top: -5px;
     }
     
     .position-box-3 {
@@ -3097,9 +3097,9 @@ footer {
         width: 100%;
         height: 71%;
         border: 1px solid #ffffff;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 3px 7px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.06);
         overflow: hidden;
-        border-radius: 3px;
+        border-radius: 2px;
         -webkit-transform: translateZ(0);
     }
     
@@ -3112,7 +3112,7 @@ footer {
         grid-row: 55 / 58;
         align-self: center;
         position: relative;
-        top: 0px;
+        top: -5px;
     }
     
     .position-box-4 {
@@ -3126,8 +3126,8 @@ footer {
         width: 100%;
         height: 71%;
         border: 1px solid #ffffff;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 3px 7px rgba(0, 0, 0, 0.06);
-        border-radius: 3px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.06);
+        border-radius: 2px;
         overflow: hidden;
     }
     
@@ -3139,7 +3139,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 57 / 58;
         position: relative;
-        top: 30px;
+        top: 25px;
     }
     
     .video-container-4 {
@@ -3158,9 +3158,9 @@ footer {
         width: 100%;
         height: 71.2%;
         border: 1px solid #ffffff;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 4px 13px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 2px 5px rgba(0, 0, 0, 0.08);
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: 3px;
         -webkit-transform: translateZ(0);
     }
     
@@ -3171,7 +3171,7 @@ footer {
     .process-title-3 {
         grid-column: 1 / 3;
         grid-row: 63 / 64;
-        align-self: end;
+        align-self: end; 
         position: relative;
         top: -40px;
     }
@@ -3223,7 +3223,7 @@ footer {
         top: 30px;
         background-image: url(/product-tour-and-smartx-community/image/little-detail-1.png);
         background-size: cover;
-        background-position: center;
+        background-position: center top;
     }
     
     .line {
@@ -3246,7 +3246,7 @@ footer {
         align-self: center;
         width: 100%;
         position: relative;
-        top: 3px;
+        top: 10px;
     }
     
     .fp-9 {
@@ -3261,14 +3261,14 @@ footer {
         grid-column: 1 / 3;
         grid-row: 80 / 81;
         position: relative;
-        top: 10px;
+        top: 23px;
     }
     
     .fp-10 {
         grid-column: 1 / 3;
         grid-row: 81 / 83;
         position: relative;
-        top: -10px;
+        top: 0px;
     }
     
     .covers-video {
@@ -3276,21 +3276,21 @@ footer {
         grid-row: 84 / 85;
         width: 100%;
         position: relative;
-        top: 0px;
+        top: -20px;
     }
     
     .s-4 {
         grid-column: 1 / 3;
         grid-row: 86 / 87;
         position: relative;
-        top: 0px;
+        top: -20px;
     }
     
     .st-3 {
         grid-column: 1 / 2;
         grid-row: 87 / 88;
         position: relative;
-        top: 0px;
+        top: -20px;
     }
     
     .process-title-6 {
@@ -3367,7 +3367,7 @@ footer {
         align-self: end;
         width: 100%;
         position: relative;
-        top: 20px;
+        top: 25px;
     }
     
     .s-5 {
@@ -3388,7 +3388,7 @@ footer {
         grid-column: 1 / 3;
         grid-row: 110 / 111;
         position: relative;
-        top: 0px;
+        top: 5px;
     }
     
     .owc-1 {
@@ -3428,7 +3428,7 @@ footer {
     }
     
     .other-works-container {
-        background-size: 75%;
+        background-size: 90%;
         background-repeat: no-repeat;
         background-color: #000000;
         background-position: center;
