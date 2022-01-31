@@ -54,6 +54,7 @@ header {
     text-decoration: none;
     width: 74px;
     height: 32px;
+    transition: background-color 0.2s cubic-bezier(0.16, 0.41, 0.74, 0.96);
 }
 
 .back:hover {
@@ -6459,5 +6460,8 @@ footer {
 @media (hover: none) {
     .link:hover {
         text-decoration: none;
+    }
+    .back:hover {
+        background-color: rgba(0, 0, 0, 0.58);
     }
 }
