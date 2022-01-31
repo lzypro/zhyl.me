@@ -42,6 +42,43 @@ header {
     position: absolute;
 }
 
+.back {
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 16px;
+    position: relative;
+    z-index: 3;
+    top: 10px;
+    left: 6px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 74px;
+    height: 32px;
+}
+
+.back:hover {
+    background-color: #166ced;
+}
+
+.back-icon {
+    position: relative;
+    left: 8px;
+}
+
+.back-link {
+    display: inline;
+}
+
+.back-text {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 11px;
+    top: 1px;
+}
+
 h1 {
     grid-column: 1 / 13;
     grid-row: 6 / 8;
@@ -1327,6 +1364,41 @@ footer {
     .header-image {
         max-width: 1112px;
     }
+
+    .back {
+        background-color: rgba(0, 0, 0, 0.58);
+        border-radius: 16px;
+        position: relative;
+        z-index: 3;
+        top: 6px;
+        left: 4px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 65px;
+        height: 28px;
+    }
+    
+    .back-icon {
+        position: relative;
+        left: 7px;
+        width: 14px;
+    }
+    
+    .back-link {
+        display: inline;
+    }
+    
+    .back-text {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 600;
+        position: relative;
+        left: 10px;
+        top: 0px;
+    }
+    
     
     h1 {
         grid-column: 1 / 7;
