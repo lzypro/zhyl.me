@@ -119,10 +119,9 @@ h1 {
 }
 
 .info-content {
-    grid-column: 3 / 5;
+    grid-column: 3 / 6;
     grid-row: 9 / 11;
     color: #000000;
-    min-width: 185px;
 }
 
 .info-name-item:not(:last-child), .info-content-item:not(:last-child) {
