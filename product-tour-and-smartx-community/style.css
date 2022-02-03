@@ -320,7 +320,7 @@ p {
 .fp-4 {
     grid-column: 2 / 12;
     grid-row: 44 / 46;
-    margin-top: 12px;
+    margin-top: 0px;
 }
 
 .visualize-goal {
