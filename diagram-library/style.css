@@ -165,6 +165,8 @@ p {
     padding: 0px;
     line-height: 14px;
     align-self: end;
+    position: relative;
+    top: -20px;
 }
 
 .link {
@@ -742,7 +744,7 @@ footer {
     }
     
     .bank-of-communications-2 {
-        margin-top: 40px;
+        margin-top: 32px;
         max-width: 472px;
         width: 100%;
         max-height: 100%;
@@ -750,7 +752,7 @@ footer {
     }
     
     .image-description {
-        margin-top: 10px;
+        margin-top: 6px;
         font-size: 14px;
         line-height: 14px;
         color: #8e9aa9;
@@ -1096,6 +1098,576 @@ footer {
     footer {
         grid-column: 1 / 7;
         grid-row: 138 / 139;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+}
+
+@media (max-width: 890px) {
+    main {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(153, 80px);
+        max-width: 1120px;
+        padding: 60px;
+        background-color: #f5f5f5;
+    }
+    
+    header {
+        background-image: url(/diagram-library/image/diagram-library.png);
+        background-size: cover;
+        background-position: center;
+        max-width: 1280px;
+        width: 100%;
+        height: 441px;
+        position: absolute;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+    }
+    
+    .back {
+        background-color: rgba(0, 0, 0, 0.58);
+        border-radius: 16px;
+        position: relative;
+        z-index: 3;
+        top: 6px;
+        left: 4px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 65px;
+        height: 28px;
+    }
+    
+    .back-icon {
+        position: relative;
+        left: 7px;
+        width: 14px;
+    }
+    
+    .back-link {
+        display: inline;
+    }
+    
+    .back-text {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 600;
+        position: relative;
+        left: 10px;
+        top: 0px;
+    }
+    
+    h1 {
+        grid-column: 1 / 7;
+        grid-row: 6 / 7;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: normal;
+        letter-spacing: -0.8px;
+        margin: 0px;
+        position: relative;
+        top: -10px;
+    }
+    
+    .bold-title {
+        letter-spacing: -0.6px;
+    }
+    
+    .seperator {
+        border-bottom: 1px solid #c6c6c6;
+    }
+    
+    .s-1 {
+        grid-column: 1 / 7;
+        grid-row: 7 / 8;
+        position: relative;
+        top: -30px;
+    }
+    
+    .work-info {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: -0.1px;
+    }
+    
+    .info-name {
+        grid-column: 1 / 3;
+        grid-row: 8 / 10;
+        color: #acacac;
+        position: relative;
+        top: -30px;
+    }
+    
+    .info-content {
+        grid-column: 3 / 7;
+        grid-row: 8 / 10;
+        color: #000000;
+        position: relative;
+        top: -30px;
+    }
+    
+    .info-name-item:not(:last-child), .info-content-item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    
+    .work-description {
+        grid-column: 3 / 7;
+        grid-row: 10 / 15;
+        position: relative;
+        top: -40px;
+    }
+    
+    .work-description-paragraph:not(:last-child) {
+        margin-bottom: 10px;
+    } 
+    
+    p {
+        margin: 0px;
+    }
+    
+    .body-text {
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: -0.1px;
+    }
+    
+    .quick-link {
+        grid-column: 1 / 2;
+        grid-row: 14 / 15;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        line-height: 13px;
+        align-self: end;
+        position: relative;
+        top: -40px;
+    }
+    
+    .link {
+        font-size: 13px;
+        line-height: 13px;
+        color: #166ced;
+        text-decoration: none;
+    }
+    
+    .link:hover {
+        text-decoration: underline;
+    }
+    
+    .quick-link-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    
+    .s-2 {
+        grid-column: 1 / 7;
+        grid-row: 15 / 16;
+    }
+    
+    .section-title {
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: -0.1px;
+        color: #acacac;
+        font-weight: normal;
+        margin: 0px;
+    }
+    
+    .st-1 {
+        grid-column: 1 / 3;
+        grid-row: 16 / 17;
+    }
+    
+    .diagrams-for-bocomm {
+        grid-column: 1 / 7;
+        grid-row: 17 / 32;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .diagram-background {
+        background-color: #ffffff;
+        padding: 56px;
+    }
+    
+    .bank-of-communications-1 {
+        max-width: 536px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .bank-of-communications-2 {
+        margin-top: 32px;
+        max-width: 536px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .image-description {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 14px;
+        color: #8e9aa9;
+        text-align: center;
+        font-family: "Inter";
+    }
+    
+    .sample-1 {
+        grid-column: 1 / 7;
+        grid-row: 32 / 33;
+        justify-self: left;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .paragraph-title {
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+    }
+    
+    .fp-1 {
+        margin-top: 8px;
+    }
+    
+    .sample-2 {
+        grid-column: 1 / 7;
+        grid-row: 44 / 45;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .fp-2 {
+        margin-top: 9px;
+    }
+    
+    .diagram-for-mark-fairwhale {
+        grid-column: 1 / 7;
+        grid-row: 34 / 44;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mark-fairwhale {
+        max-width: 536px;
+        width: 100%;
+    }
+    
+    .diagram-for-yellow-river {
+        grid-column: 1 / 7;
+        grid-row: 46 / 56;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .yellow-river {
+        max-width: 536px;
+        width: 100%;
+    }
+    
+    .sample-3 {
+        grid-column: 1 / 7;
+        grid-row: 56 / 57;
+        justify-self: left;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .fp-3 {
+        margin-top: 9px;
+    }
+    
+    .s-3 {
+        grid-column: 1 / 7;
+        grid-row: 57 / 58;
+    }
+    
+    .st-2 {
+        grid-column: 1 / 2;
+        grid-row: 58 / 59;
+    }
+    
+    .process-title-1 {
+        grid-column: 1 / 7;
+        grid-row: 59 / 60;
+    }
+    
+    .subtitle {
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: -0.2px;
+        margin: 0px;
+    }
+    
+    .process-title-text {
+        font-size: 31px;
+        line-height: 38px;
+        letter-spacing: -0.8px;
+        margin-top: 6px;
+    }
+    
+    .fp-4 {
+        grid-column: 1 / 7;
+        grid-row: 60 / 61;
+        position: relative;
+        top: -20px;
+    }
+    
+    .typical-architecture-diagram {
+        grid-column: 1 / 7;
+        grid-row: 62 / 66;
+        width: 100%;
+        position: relative;
+        top: -40px;
+    }
+    
+    .initial-goals {
+        grid-column: 1 / 7;
+        grid-row: 66 / 67;
+        width: 90%;
+        position: relative;
+        top: -40px;
+    }
+    
+    .goal-list {
+        grid-column: 1 / 7;
+        grid-row: 67 / 69;
+        margin: 0px;
+        position: relative;
+        top: -30px;
+    }
+    
+    .goal-list-item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+    
+    .fp-ig {
+        margin-top: 6px;
+    }
+    
+    .process-title-2 {
+        grid-column: 1 / 7;
+        grid-row: 70 / 71;
+        position: relative;
+        top: -30px;
+    }
+    
+    .fp-5 {
+        grid-column: 1 / 7;
+        grid-row: 71 / 72;
+        position: relative;
+        top: -45px;
+    }
+    
+    .expandable-grid {
+        grid-column: 1 / 7;
+        grid-row: 73 / 79;
+        width: 100%;
+        position: relative;
+        top: -30px;
+    }
+    
+    .pt-5 {
+        grid-column: 1 / 7;
+        grid-row: 79 / 80;
+    }
+    
+    .fp-6 {
+        grid-column: 1 / 7;
+        grid-row: 79 / 80;
+        position: relative;
+        top: 35px;
+    }
+    
+    .video-container {
+        grid-column: 1 / 7;
+        grid-row: 80 / 88;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 40px;
+    }
+    
+    .expandable-grid-video {
+        width: 100%;
+        max-width: 536px;
+    }
+    
+    .process-title-3 {
+        grid-column: 1 / 7;
+        grid-row: 89 / 90;
+        position: relative;
+        top: 40px;
+    }
+    
+    .fp-7 {
+        grid-column: 1 / 7;
+        grid-row: 90 / 91;
+        position: relative;
+        top: 25px;
+    }
+    
+    .colors {
+        grid-column: 1 / 4;
+        grid-row: 92 / 95;
+        width: 100%;
+    }
+    
+    .first-3d-icon-set {
+        grid-column: 4 / 7;
+        grid-row: 92 / 95;
+        width: 100%;
+    }
+    
+    .diagrams-for-ecarx {
+        grid-column: 1 / 7;
+        grid-row: 95 / 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 43px;
+    }
+    
+    .ecarx {
+        width: 100%;
+        max-width: 472px;
+    }
+    
+    .blender-screenshot {
+        grid-column: 1 / 7;
+        grid-row: 101 / 106;
+        width: 100%;
+        justify-self: center;
+        position: relative;
+        top: 30px;
+        max-width: 648px;
+    }
+    
+    .shift-to-minimalism {
+        grid-column: 1 / 7;
+        grid-row: 107 / 108;
+        position: relative;
+        top: -30px;
+    }
+    
+    .fp-8 {
+        margin-top: 12px;
+    }
+    
+    .variants-image {
+        grid-column: 1 / 7;
+        grid-row: 109 / 117;
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    .figma-panel {
+        grid-column: 1 / 4;
+        grid-row: 120 / 121;
+        width: 100%;
+        max-width: 317px;
+    }
+    
+    .variants {
+        grid-column: 4 / 7;
+        grid-row: 120 / 121;
+        justify-self: right;
+        position: relative;
+        top: 0px;
+        width: 95%;
+    }
+    
+    .fp-9 {
+        margin-top: 12px;
+    }
+    
+    .software-icons-image {
+        grid-column: 1 / 7;
+        grid-row: 123 / 126;
+        width: 100%;
+        max-width: 648px;
+    }
+    
+    .icons-for-software {
+        grid-column: 1 / 7;
+        grid-row: 126 / 128;
+        width: 100%;
+        justify-self: right;
+        position: relative;
+        top: 30px;
+    }
+    
+    .s-4 {
+        grid-column: 1 / 7;
+        grid-row: 128 / 129;
+    }
+    
+    .st-3 {
+        grid-column: 1 / 3;
+        grid-row: 129 / 130;
+    }
+    
+    .diagrams-for-guotai {
+        grid-column: 1 / 7;
+        grid-row: 130 / 145;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .guotai-junan-securities-1 {
+        max-width: 536px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .guotai-junan-securities-2 {
+        margin-top: 40px;
+        max-width: 536px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .diagrams-for-healthcare-industry-solution {
+        grid-column: 1 / 7;
+        grid-row: 146 / 153;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .healthcare-industry-solution {
+        width: 100%;
+        max-width: 693px;
+    }
+    
+    footer {
+        grid-column: 1 / 7;
+        grid-row: 153 / 154;
         font-size: 11px;
         line-height: 15px;
         letter-spacing: 0.1px;
