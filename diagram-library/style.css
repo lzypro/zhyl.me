@@ -5380,3 +5380,12 @@ footer {
         align-self: end;
     }
 }
+
+@media (hover: none) {
+    .link:hover {
+        text-decoration: none;
+    }
+    .back:hover {
+        background-color: rgba(0, 0, 0, 0.58);
+    }
+}
