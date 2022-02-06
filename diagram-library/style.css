@@ -1469,7 +1469,7 @@ footer {
         grid-row: 71 / 72;
         position: relative;
         top: -40px;
-        min-width: none;
+        min-width: 0px;
     }
     
     .fp-5 {
@@ -2067,7 +2067,7 @@ footer {
         grid-row: 60 / 61;
         position: relative;
         top: 0px;
-        min-width: none;
+        min-width: 0px;
     }
     
     .fp-5 {
@@ -2300,6 +2300,614 @@ footer {
     footer {
         grid-column: 1 / 3;
         grid-row: 140 / 141;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+}
+
+@media (max-width: 395px) {
+    main {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(133, 68px);
+        padding: 30px;
+        background-color: #f5f5f5;
+    }
+    
+    header {
+        background-image: url(/diagram-library/image/diagram-library.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 254px;
+        position: absolute;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+    }
+    
+    .back {
+        background-color: rgba(0, 0, 0, 0.58);
+        border-radius: 16px;
+        position: relative;
+        z-index: 3;
+        top: 4px;
+        left: 3px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 65px;
+        height: 28px;
+    }
+    
+    .back-icon {
+        position: relative;
+        left: 7px;
+        width: 14px;
+    }
+    
+    .back-link {
+        display: inline;
+    }
+    
+    .back-text {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 600;
+        position: relative;
+        left: 10px;
+        top: 0px;
+    }
+    
+    h1 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+        font-size: 22px;
+        line-height: 29px;
+        font-weight: normal;
+        letter-spacing: -0.4px;
+        margin: 0px;
+        position: relative;
+        top: -40px;
+    }
+    
+    .bold-title {
+        letter-spacing: -0.3px;
+    }
+    
+    .seperator {
+        border-bottom: 1px solid #c6c6c6;
+    }
+    
+    .s-1 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+        position: relative;
+        top: 20px;
+    }
+    
+    .work-info {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+    }
+    
+    .info-name {
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+        color: #acacac;
+        position: relative;
+        top: 20px;
+    }
+    
+    .info-content {
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+        color: #000000;
+        position: relative;
+        top: 20px;
+    }
+    
+    .info-name-item:not(:last-child), .info-content-item:not(:last-child) {
+        margin-bottom: 4px;
+    }
+    
+    .work-description {
+        grid-column: 1 / 3;
+        grid-row: 8 / 14;
+        position: relative;
+        top: -20px;
+    }
+    
+    .work-description-paragraph:not(:last-child) {
+        margin-bottom: 7px;
+    } 
+    
+    p {
+        margin: 0px;
+    }
+    
+    .body-text {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+    }
+    
+    .quick-link {
+        grid-column: 1 / 2;
+        grid-row: 14 / 15;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        line-height: 13px;
+        align-self: end;
+        position: relative;
+        top: 20px;
+    }
+    
+    .link {
+        font-size: 13px;
+        line-height: 13px;
+        color: #166ced;
+        text-decoration: none;
+    }
+    
+    .link:hover {
+        text-decoration: underline;
+    }
+    
+    .quick-link-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    
+    .s-2 {
+        grid-column: 1 / 3;
+        grid-row: 15 / 16;
+        position: relative;
+        top: 0px;
+    }
+    
+    .section-title {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+        color: #acacac;
+        font-weight: normal;
+        margin: 0px;
+    }
+    
+    .st-1 {
+        grid-column: 1 / 3;
+        grid-row: 16 / 17;
+        position: relative;
+        top: 0px;
+    }
+    
+    .diagrams-for-bocomm {
+        grid-column: 1 / 3;
+        grid-row: 17 / 27;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .diagram-background {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    .bank-of-communications-1 {
+        max-width: 290px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .bank-of-communications-2 {
+        margin-top: 24px;
+        max-width: 290px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .image-description {
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 12px;
+        color: #8e9aa9;
+        text-align: center;
+        font-family: "Inter";
+    }
+    
+    .sample-1 {
+        grid-column: 1 / 3;
+        grid-row: 27 / 28;
+        justify-self: left;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .paragraph-title {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+    }
+    
+    .fp-1 {
+        margin-top: 6px;
+    }
+    
+    .sample-2 {
+        grid-column: 1 / 3;
+        grid-row: 36 / 37;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .fp-2 {
+        margin-top: 6px;
+    }
+    
+    .diagram-for-mark-fairwhale {
+        grid-column: 1 / 3;
+        grid-row: 29 / 36;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mark-fairwhale {
+        max-width: 290px;
+        width: 100%;
+    }
+    
+    .diagram-for-yellow-river {
+        grid-column: 1 / 3;
+        grid-row: 38 / 45;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .yellow-river {
+        max-width: 290px;
+        width: 100%;
+    }
+    
+    .sample-3 {
+        grid-column: 1 / 3;
+        grid-row: 45 / 46;
+        justify-self: left;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    
+    .fp-3 {
+        margin-top: 6px;
+    }
+    
+    .s-3 {
+        grid-column: 1 / 3;
+        grid-row: 47 / 48;
+    }
+    
+    .st-2 {
+        grid-column: 1 / 2;
+        grid-row: 48 / 49;
+    }
+    
+    .process-title-1 {
+        grid-column: 1 / 3;
+        grid-row: 49 / 50;
+    }
+    
+    .subtitle {
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+    }
+    
+    .process-title-text {
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+        margin-top: 4px;
+    }
+    
+    .fp-4 {
+        grid-column: 1 / 3;
+        grid-row: 50 / 52;
+        position: relative;
+        top: 0px;
+    }
+    
+    .typical-architecture-diagram {
+        grid-column: 1 / 3;
+        grid-row: 52 / 56;
+        align-self: center;
+        width: 100%;
+        max-width: 490px;
+        position: relative;
+        top: 10px;
+        justify-self: left;
+    }
+    
+    .initial-goals {
+        grid-column: 1 / 3;
+        grid-row: 56 / 57;
+        width: 100%;
+        position: relative;
+        top: -15px;
+    }
+    
+    .goal-list {
+        grid-column: 1 / 3;
+        grid-row: 57 / 59;
+        margin: 0px;
+        position: relative;
+        width: 95%;
+        top: 15px;
+        left: -15px;
+    }
+    
+    .goal-list-item:not(:last-child) {
+        margin-bottom: 3px;
+    }
+    
+    .fp-ig {
+        margin-top: 6px;
+    }
+    
+    .process-title-2 {
+        grid-column: 1 / 3;
+        grid-row: 60 / 61;
+        position: relative;
+        top: 10px;
+        min-width: 0px;
+    }
+    
+    .fp-5 {
+        grid-column: 1 / 3;
+        grid-row: 61 / 64;
+        position: relative;
+        top: 13px;
+    }
+    
+    .expandable-grid {
+        grid-column: 1 / 3;
+        grid-row: 64 / 68;
+        justify-self: left;
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: 15px;
+    }
+    
+    .pt-5 {
+        grid-column: 1 / 3;
+        grid-row: 68 / 69;
+        position: relative;
+        top: 5px;
+    }
+    
+    .fp-6 {
+        grid-column: 1 / 3;
+        grid-row: 68 / 69;
+        position: relative;
+        top: 35px;
+    }
+    
+    .video-container {
+        grid-column: 1 / 3;
+        grid-row: 70 / 75;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0px;
+    }
+    
+    .expandable-grid-video {
+        width: 100%;
+        max-width: 290px;
+    }
+    
+    .process-title-3 {
+        grid-column: 1 / 3;
+        grid-row: 76 / 77;
+        position: relative;
+        top: 0px;
+    }
+    
+    .fp-7 {
+        grid-column: 1 / 3;
+        grid-row: 77 / 78;
+        position: relative;
+        top: -23px;
+    }
+    
+    .colors {
+        grid-column: 1 / 3;
+        grid-row: 79 / 83;
+        justify-self: left;
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: 30px;
+    }
+    
+    .first-3d-icon-set {
+        grid-column: 1 / 3;
+        grid-row: 83 / 87;
+        justify-self: left;
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: 16px;
+    }
+    
+    .diagrams-for-ecarx {
+        grid-column: 1 / 3;
+        grid-row: 87 / 92;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 2px;
+    }
+    
+    .ecarx {
+        width: 100%;
+        max-width: 330px;
+    }
+    
+    .blender-screenshot {
+        grid-column: 1 / 3;
+        grid-row: 93 / 96;
+        width: 100%;
+        justify-self: left;
+        position: relative;
+        top: 0px;
+        max-width: 330px;
+    }
+    
+    .shift-to-minimalism {
+        grid-column: 1 / 3;
+        grid-row: 96 / 98;
+        position: relative;
+        top: 30px;
+    }
+    
+    .fp-8 {
+        margin-top: 12px;
+    }
+    
+    .variants-image {
+        grid-column: 1 / 3;
+        grid-row: 100 / 106;
+        width: 100%;
+        max-width: 330px;
+        justify-self: left;
+        position: relative;
+        top: 20px;
+    }
+    
+    .figma-panel {
+        grid-column: 1 / 3;
+        grid-row: 107 / 108;
+        justify-self: left;
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: -8px;
+    }
+    
+    .variants {
+        grid-column: 1 / 3;
+        grid-row: 109 / 110;
+        justify-self: left;
+        position: left;
+        left: 0px;
+        width: 100%;
+        position: relative;
+        top: -10px;
+    }
+    
+    .fp-9 {
+        margin-top: 6px;
+    }
+    
+    .software-icons-image {
+        grid-column: 1 / 3;
+        grid-row: 111 / 113;
+        width: 100%;
+        max-width: 330px;
+        position: relative;
+        top: 30px;
+    }
+    
+    .icons-for-software {
+        grid-column: 1 / 3;
+        grid-row: 114 / 115;
+        width: 100%;
+        justify-self: right;
+        position: relative;
+        top: -25px;
+    }
+    
+    .s-4 {
+        grid-column: 1 / 3;
+        grid-row: 116 / 117;
+        position: relative;
+        top: 0px;
+    }
+    
+    .st-3 {
+        grid-column: 1 / 3;
+        grid-row: 117 / 118;
+        position: relative;
+        top: 0px;
+    }
+    
+    .diagrams-for-guotai {
+        grid-column: 1 / 3;
+        grid-row: 118 / 128;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 0px;
+    }
+    
+    .guotai-junan-securities-1 {
+        max-width: 290px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .guotai-junan-securities-2 {
+        margin-top: 24px;
+        max-width: 290px;
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
+    
+    .diagrams-for-healthcare-industry-solution {
+        grid-column: 1 / 3;
+        grid-row: 128 / 133;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0px;
+    }
+    
+    .healthcare-industry-solution {
+        width: 100%;
+        max-width: 290px;
+    }
+    
+    footer {
+        grid-column: 1 / 3;
+        grid-row: 133 / 134;
         font-size: 11px;
         line-height: 15px;
         letter-spacing: 0.1px;
