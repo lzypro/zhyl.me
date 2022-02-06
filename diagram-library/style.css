@@ -3111,6 +3111,8 @@ footer {
         grid-row: 17 / 27;
         display: flex;
         justify-content: center;
+        position: relative;
+        top: 0px;
     }
     
     .diagram-background {
@@ -3179,6 +3181,8 @@ footer {
         grid-row: 29 / 36;
         display: flex;
         justify-content: center;
+        position: relative;
+        top: 0px;
     }
     
     .mark-fairwhale {
@@ -3191,6 +3195,8 @@ footer {
         grid-row: 38 / 45;
         display: flex;
         justify-content: center;
+        position: relative;
+        top: 0px;
     }
     
     .yellow-river {
