@@ -11,9 +11,15 @@
 }
 
 @font-face {
-    font-family: "Inter";
-    src: url(/font/Inter-Regular.woff2);
-    font-weight: 400;
+    font-family: "Roboto";
+    src: url(/font/roboto-v29-latin-regular.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/font/roboto-v29-latin-700.woff2);
+    font-weight: bold;
 }
 
 * {
@@ -214,9 +220,9 @@ p {
     grid-row: 14 / 15;
 }
 
-.icon-container {
+.icon-set-container {
     grid-column: 1 / 13;
-    grid-row: 16 / 34;
+    grid-row: 16 / 35;
     background-color: #ffffff;
     padding: 100px 95px;
 }
@@ -225,4 +231,38 @@ p {
     font-size: 28px;
     line-height: 28px;
     letter-spacing: -0.3px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin: 0px;
+}
+
+.icon-name {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Roboto";
+    font-weight: normal;
+    color: #697886;
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.icon-container {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 75px;
+    align-items: center;
+    min-height: 80px;
+}
+
+.category-container {
+    margin-top: 72px;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+}
+
+.icon-category:not(:first-child) {
+    margin-top: 128px;
 }
