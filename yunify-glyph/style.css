@@ -306,6 +306,7 @@ p {
     grid-column: 3 / 11;
     grid-row: 39 / 45;
     width: 100%;
+    align-self: center;
 }
 
 .initial-goals {
@@ -389,4 +390,47 @@ p {
     width: 100%;
     height: 380px;
     object-fit: contain;
+}
+
+.process-title-4 {
+    grid-column: 2 / 12;
+    grid-row: 67 / 68;
+}
+
+.fp-5 {
+    grid-column: 2 / 12;
+    grid-row: 68 / 71;
+}
+
+.fp-6 {
+    margin-top: 10px;
+}
+
+.sizes-image {
+    grid-column: 2 / 12;
+    grid-row: 71 / 74;
+    align-self: end;
+    width: 100%;
+}
+
+.fp-7 {
+    grid-column: 2 / 12;
+    grid-row: 74 / 75;
+}
+
+.process-title-5 {
+    grid-column: 2 / 12;
+    grid-row: 76 / 77;
+}
+
+.fp-8 {
+    grid-column: 2 / 12;
+    grid-row: 77 / 79;
+    width: 98%;
+}
+
+.shapes-image {
+    grid-column: 2 / 12;
+    grid-row: 79 / 82;
+    width: 100%;
 }
