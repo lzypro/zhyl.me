@@ -571,7 +571,7 @@ footer {
     }
     
     .back {
-        background-color: rgba(0, 0, 0, 0.58);
+        background-color: rgba(50, 69, 88, 0.7);
         border-radius: 16px;
         position: relative;
         z-index: 3;
