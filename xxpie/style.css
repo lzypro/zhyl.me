@@ -27,7 +27,7 @@ main {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(111, 80px);
+    grid-template-rows: repeat(82, 80px);
     max-width: 1120px;
     padding: 80px;
     background-color: #f5f5f5;
@@ -245,3 +245,78 @@ p {
     justify-items: center;
 }
 
+.s-3 {
+    grid-column: 1 / 13;
+    grid-row: 52 / 53;
+}
+
+.st-2 {
+    grid-column: 1 / 13;
+    grid-row: 53 / 54;
+}
+
+.process-title-1 {
+    grid-column: 2 / 12;
+    grid-row: 54 / 55;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin: 0px;
+}
+
+.process-title-text {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+}
+
+.fp-1 {
+    grid-column: 2 / 12;
+    grid-row: 55 / 56;
+    margin-top: 0px;
+}
+
+.design-system {
+    grid-column: 1 / 13;
+    grid-row: 57 / 66;
+    background-image: url(/xxpie/image/design-system.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.process-title-2 {
+    grid-column: 2 / 12;
+    grid-row: 67 / 68;
+}
+
+.fp-2 {
+    grid-column: 2 / 12;
+    grid-row: 68 / 69;
+    margin-top: 0px;
+}
+
+.details {
+    grid-column: 2 / 12;
+    grid-row: 70 / 82;
+    background-image: url(/xxpie/image/details.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+footer {
+    grid-column: 1 / 13;
+    grid-row: 82 / 83;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #8d8d8d;
+    border-top: 1px solid #c6c6c6;
+    padding-top: 16px;
+    align-self: end;
+}
