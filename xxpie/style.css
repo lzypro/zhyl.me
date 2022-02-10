@@ -227,3 +227,21 @@ p {
     grid-row: 24 / 32;
     width: 100%;
 }
+
+.icon-container {
+    grid-column: 1 / 13;
+    grid-row: 33 / 52;
+    background-color: #ffffff;
+    padding: 116px 108px;
+    
+}
+
+.grid-container {
+    display: grid;
+    row-gap: 52px;
+    column-gap: 0px;
+    grid-template-columns: repeat(10, minmax(48px, 1fr));
+    width: 100%;
+    justify-items: center;
+}
+
