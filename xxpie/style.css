@@ -879,13 +879,13 @@ footer {
         grid-column: 1 / 7;
         grid-row: 74 / 75;
         position: relative;
-        top: 15px;
+        top: -10px;
     }
     
     .fp-2 {
         grid-column: 1 / 7;
         grid-row: 75 / 76;
-        margin-top: 0px;
+        margin-top: -25px;
     }
     
     .details {
