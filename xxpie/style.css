@@ -35,8 +35,7 @@ main {
 
 header {
     background-image: url(/xxpie/image/xxpie.png);
-    background-color: #000000;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1280px;
