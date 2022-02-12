@@ -12,29 +12,796 @@
 
 * {
     font-family: "Civil Premium";
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #898989;
+    margin: 0px;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 80px);
+    max-width: 1120px;
+    padding: 80px;
+    background-color: #f5f5f5;
+}
+
+header {
+    grid-column: span 5;
+    grid-row: span 3;
+}
+
+.self-introduction {
+    grid-column: span 7;
+    grid-row: span 2;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -0.7px;
+    margin: 0px;
+}
+
+.current-state {
+    grid-column: span 7;
+    grid-row: span 1;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -0.7px;
+    margin: 0px;
+}
+
+.selected-works {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #545454;
+    letter-spacing: -0.4px;
+    margin: 0px;
+    align-self: end;
+    position: relative;
+    bottom: 8px;
+}
+
+.link-product-tour {
+    grid-column: 1 / 9;
+    grid-row: 5 / 8;
+    background-image: url("/image/cover_small/product-tour.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.title-product-tour {
+    grid-column: 1 / 9;
+    grid-row: 8 / 9;
+}
+
+.link-diagram-library {
+    grid-column: 1 / 5;
+    grid-row: 9 / 11;
+    background-image: url("/image/cover_small/diagram_library.png");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ffffff;
+}
+
+.title-diagram-library {
+    grid-column: 1 / 5;
+    grid-row: 11 / 12;
+}
+
+.link-yunify-glyph {
+    grid-column: 5 / 9;
+    grid-row: 9 / 11;
+    background-image: url("/image/cover_small/yunify-glyph.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title-yunify-glyph {
+    grid-column: 5 / 9;
+    grid-row: 11 / 12;
+}
+
+.link-xxpie {
+    grid-column: 9 / 13;
+    grid-row: 5 / 11;
+    background-image: url("/image/cover_small/xxpie.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title-xxpie {
+    grid-column: 9 / 13;
+    grid-row: 11 / 12;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    letter-spacing: -0.2px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.card {
+    border-radius: 20px;
+    transition: transform 0.5s cubic-bezier(0.16, 0.49, 0.68, 0.99);
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card:active {
+    transform: scale(1.01);
+}
+
+footer {
+    grid-column: 1 / 13;
+    grid-row: 12 / 13;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #8d8d8d;
+    border-top: 1px solid #c6c6c6;
+    padding-top: 16px;
+    align-self: end;
+}
+
+p {
+    margin: 0px
 }
 
 h1 {
-    font-size: 3vw;
-    width: 53vw;
-    letter-spacing: -0.02em;
-    line-height: 1.4;
-    font-weight: bold;
+    font-size: 37px;
+    line-height: 37px;
+    letter-spacing: -1.3px;
+    color: #000000;
+    margin: 0px;
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 8vw;
-        width: 80vw;
-        letter-spacing: -0.025em;
-        line-height: 1.4;
+.link-profile {
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: -0.7px;
+    color: #166ced;
+    margin-top: 55px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.link-profile::after {
+    content: "";
+    display: inline-block;
+    height: 26px;
+    width: 16px;
+    background-size: 16px 26px;
+    background-image: url("/image/icon/chevron_right.svg");
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+.link-profile:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1112px) {
+    main {
+        gap: 17px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(16, 80px);
+        padding: 70px;
     }
-  }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.5px;
+    }
+    
+    .link-profile {
+        font-size: 23px;
+        line-height: 23px;
+        letter-spacing: -0.8px;
+        color: #166ced;
+        margin-top: 38px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .link-profile::after {
+        content: "";
+        display: inline-block;
+        height: 23px;
+        width: 14px;
+        background-size: 14px 23px;
+        background-image: url("/image/icon/chevron_right.svg");
+        position: relative;
+        top: 4px;
+        left: 1px;
+    }
+
+    .self-introduction {
+        grid-column: 3 / 7;
+        grid-row: 1 / 2;
+        font-size: 23px;
+        line-height: 31px;
+        letter-spacing: -0.8px;
+        margin: 0px;
+    }
+    
+    .current-state {
+        grid-column: 3 / 7;
+        grid-row: 2 / 3;
+        font-size: 23px;
+        line-height: 31px;
+        letter-spacing: -0.8px;
+        margin: 0px;
+        position: relative;
+        top: 31px;
+    }
+
+    .selected-works {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: normal;
+        color: #545454;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        align-self: end;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .link-product-tour {
+        grid-column: 1 / 7;
+        grid-row: 4 / 7;
+    }
+    
+    .title-product-tour {
+        grid-column: 1 / 7;
+        grid-row: 7 / 8;
+    }
+    
+    .link-diagram-library {
+        grid-column: 1 / 4;
+        grid-row: 8 / 11;
+    }
+    
+    .title-diagram-library {
+        grid-column: 1 / 4;
+        grid-row: 11 / 12;
+    }
+    
+    .link-yunify-glyph {
+        grid-column: 1 / 4;
+        grid-row: 12 / 15;
+    }
+    
+    .title-yunify-glyph {
+        grid-column: 1 / 4;
+        grid-row: 15 / 16;
+    }
+    
+    .link-xxpie {
+        grid-column: 4 / 7;
+        grid-row: 8 / 15;
+    }
+    
+    .title-xxpie {
+        grid-column: 4 / 7;
+        grid-row: 15 / 16;
+    }        
+
+    footer {
+        grid-column: 1 / 7;
+        grid-row: 16 / 17;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+
+    .card {
+        border-radius: 16px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.1px;
+    }
+}
+
+@media (max-width: 890px) {
+    main {
+        gap: 15px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(14, 80px);
+        padding: 60px;
+    }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 23px;
+        letter-spacing: -0.8px;
+    }
+    
+    .link-profile {
+        font-size: 21px;
+        line-height: 21px;
+        letter-spacing: -0.5px;
+        color: #166ced;
+        margin-top: 36px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .link-profile::after {
+        content: "";
+        display: inline-block;
+        height: 21px;
+        width: 13px;
+        background-size: 13px 21px;
+        background-image: url("/image/icon/chevron_right.svg");
+        position: relative;
+        top: 3.5px;
+        left: 1px;
+    }
+
+    .self-introduction {
+        grid-column: 3 / 7;
+        grid-row: 1 / 2;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        margin: 0px;
+    }
+    
+    .current-state {
+        grid-column: 3 / 7;
+        grid-row: 2 / 3;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        margin: 0px;
+        position: relative;
+        top: 40px;
+    }
+
+    .selected-works {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: normal;
+        color: #545454;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        align-self: end;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .link-product-tour {
+        grid-column: 1 / 7;
+        grid-row: 4 / 7;
+    }
+    
+    .title-product-tour {
+        grid-column: 1 / 7;
+        grid-row: 7 / 8;
+    }
+    
+    .link-diagram-library {
+        grid-column: 1 / 4;
+        grid-row: 8 / 10;
+    }
+    
+    .title-diagram-library {
+        grid-column: 1 / 4;
+        grid-row: 10 / 11;
+    }
+    
+    .link-yunify-glyph {
+        grid-column: 1 / 4;
+        grid-row: 11 / 13;
+    }
+    
+    .title-yunify-glyph {
+        grid-column: 1 / 4;
+        grid-row: 13 / 14;
+    }
+    
+    .link-xxpie {
+        grid-column: 4 / 7;
+        grid-row: 8 / 13;
+    }
+    
+    .title-xxpie {
+        grid-column: 4 / 7;
+        grid-row: 13 / 14;
+    }
+
+    footer {
+        grid-column: 1 / 7;
+        grid-row: 14 / 15;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+
+    .card {
+        border-radius: 16px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.1px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(14, 80px); 
+        padding: 45px;
+    }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 23px;
+        letter-spacing: -0.8px;
+        display: inline;
+    }
+    
+    .link-profile {
+        font-size: 19px;
+        line-height: 19px;
+        letter-spacing: -0.4px;
+        color: #166ced;
+        text-decoration: none;
+        display: inline;
+        margin-top: 0px;
+        position: relative;
+        top: 3px;
+    }
+    
+    .link-profile::after {
+        content: "";
+        display: inline-block;
+        height: 19px;
+        width: 12px;
+        background-size: 12px 19px;
+        background-image: url("/image/icon/chevron_right.svg");
+        position: relative;
+        top: 3.2px;
+        left: 1px;
+    }
+
+    .self-introduction {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+    }
+    
+    .current-state {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        font-size: 19px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        position: relative;
+        top: 40px;
+    }
+
+    .selected-works {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: normal;
+        color: #545454;
+        letter-spacing: 0px;
+        margin: 0px;
+        align-self: end;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .link-product-tour {
+        grid-column: 1 / 3;
+        grid-row: 5 / 7;
+    }
+    
+    .title-product-tour {
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+    }
+    
+    .link-diagram-library {
+        grid-column: 1 / 2;
+        grid-row: 8 / 10;
+    }
+    
+    .title-diagram-library {
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
+    }
+    
+    .link-yunify-glyph {
+        grid-column: 1 / 2;
+        grid-row: 11 / 13;
+    }
+    
+    .title-yunify-glyph {
+        grid-column: 1 / 2;
+        grid-row: 13 / 14;
+    }
+    
+    .link-xxpie {
+        grid-column: 2 / 3;
+        grid-row: 8 / 13;
+    }
+    
+    .title-xxpie {
+        grid-column: 2 / 3;
+        grid-row: 13 / 14;
+    }
+
+    footer {
+        grid-column: 1 / 3;
+        grid-row: 14 / 15;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+
+    .card {
+        border-radius: 12px;
+    }
+
+    .card-title {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+    }
+}
+
+@media (max-width: 560px) {
+    main {
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 68px);
+        max-width: 708px;
+        padding: 30px;
+    }
+
+    header {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 19px;
+        line-height: 19px;
+        letter-spacing: -0.5px;
+        display: inline;
+    }
+    
+    .link-profile {
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        color: #166ced;
+        text-decoration: none;
+        display: inline;
+        margin-top: 0px;
+        position: relative;
+        top: -2px;
+        height: 18px;
+    }
+    
+    .link-profile::after {
+        content: "";
+        display: inline-block;
+        background-size: 11px 19px;
+        background-image: url("/image/icon/chevron_right.svg");
+    }
+
+    .self-introduction {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        position: relative;
+        top: -19px;
+    }
+    
+    .current-state {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        position: relative;
+        top: 35px;
+    }
+
+    .selected-works {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: normal;
+        color: #545454;
+        letter-spacing: -0.1px;
+        margin: 0px;
+        align-self: end;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .link-product-tour {
+        grid-column: 1 / 3;
+        grid-row: 5 / 7;
+    }
+    
+    .title-product-tour {
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+    }
+    
+    .link-diagram-library {
+        grid-column: 1 / 2;
+        grid-row: 8 / 9;
+    }
+    
+    .title-diagram-library {
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
+    }
+    
+    .link-yunify-glyph {
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
+    }
+    
+    .title-yunify-glyph {
+        grid-column: 1 / 2;
+        grid-row: 11 / 12;
+    }
+    
+    .link-xxpie {
+        grid-column: 2 / 3;
+        grid-row: 8 / 11;
+    }
+    
+    .title-xxpie {
+        grid-column: 2 / 3;
+        grid-row: 11 / 12;
+    }
+
+    footer {
+        grid-column: 1 / 3;
+        grid-row: 12 / 13;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+        color: #8d8d8d;
+        border-top: 1px solid #c6c6c6;
+        padding-top: 16px;
+        align-self: end;
+    }
+
+    .card {
+        border-radius: 12px;
+    }
+
+    .card-title {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.1px;
+    }
+}
+
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+    }
+
+    .card:active {
+        transform: none;
+    }
+
+    .link-profile:hover {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 395px) {
+    .self-introduction {
+        position: relative;
+        top: -26px;
+    }
+    
+    .current-state {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media (max-width: 385px) {
+    .self-introduction {
+        position: relative;
+        top: -36px;
+    }
+    
+    .current-state {
+        position: relative;
+        top: 26px;
+    }
+}
+
+@media (max-width: 330px) {
+    .self-introduction {
+        position: relative;
+        top: -42px;
+    }
+    
+    .current-state {
+        position: relative;
+        top: 34px;
+    }
+}
