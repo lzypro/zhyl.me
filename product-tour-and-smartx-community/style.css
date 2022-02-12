@@ -44,7 +44,7 @@ header {
 }
 
 .back {
-    background-color: rgba(0, 0, 0, 0.58);
+    background-color: rgba(6, 31, 56, 0.71);
     border-radius: 16px;
     position: relative;
     z-index: 3;
@@ -1368,7 +1368,7 @@ footer {
     }
 
     .back {
-        background-color: rgba(0, 0, 0, 0.58);
+        background-color: rgba(6, 31, 56, 0.71);
         border-radius: 16px;
         position: relative;
         z-index: 3;
