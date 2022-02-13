@@ -183,6 +183,7 @@ p {
     align-self: end;
     position: relative;
     top: -30px;
+    z-index: 2;
 }
 
 .link {

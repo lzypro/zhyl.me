@@ -156,6 +156,7 @@ p {
     padding: 0px;
     line-height: 14px;
     align-self: end;
+    z-index: 2;
 }
 
 .link {
@@ -2913,7 +2914,6 @@ footer {
         align-self: center;
         position: relative;
         top: 0px;
-        z-index: 2;
     }
     
     .link {
