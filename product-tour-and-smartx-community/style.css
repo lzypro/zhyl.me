@@ -338,6 +338,10 @@ p {
     width: 90%;
 }
 
+.fp-ig {
+    margin-top: 12px;
+}
+
 .goal-list {
     grid-column: 7 / 12;
     grid-row: 51 / 55;
@@ -965,6 +969,10 @@ footer {
         grid-column: 2 / 6;
         grid-row: 46 / 47;
         width: 100%;
+    }
+
+    .fp-ig {
+        margin-top: 6px;
     }
     
     .goal-list {
@@ -1675,7 +1683,7 @@ footer {
     }
 
     .fp-ig {
-        margin-top: 8px;
+        margin-top: 6px;
     }
     
     .goal-list {
@@ -2392,7 +2400,7 @@ footer {
     }
 
     .fp-ig {
-        margin-top: 7px;
+        margin-top: 6px;
     }
     
     .goal-list {
